@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style >
+        #leftdiv{
+            float:left;
+        }
+        #rightdiv{
+            float:left;
+        }
+
+        ul{
+            list-style-type: none;
+            margin: 0 0 0 0;
+            padding: 0 1em 0 0;
+        }
+        li{
+            margin: .5em auto .5em auto;
+        }
+        #percentInput{
+            width:3em;
+        }
+
+        #imageCanvas{
+            border:1px solid #000000;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="leftdiv" >
+        <ul >
+            <li>
+                <label for="upload">Upload Image:</label>
+                <input id="upload" type="file" />
+            </li>
+            <li>
+                <label for="percentInput">Percent:</label>
+                <input type="text" id="percentInput" >
+                <button id="resize" type="button" >Resize Image</button>
+            </li>
+        </ul>
+    </div>
+    <div id="rightdiv" >
+        <canvas id="imageCanvas"></canvas>
+    </div>
+
+<script type="text/javascript" src="scripts/imageResize.js"></script>
+</body>
+</html>

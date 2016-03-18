@@ -1,0 +1,25 @@
+{
+  "name": "potential-octo-guacamole",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herberstroink/potential-octo-guacamole.git"
+  },
+  "author": "Holland Herbert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/herberstroink/potential-octo-guacamole/issues"
+  },
+  "homepage": "https://github.com/herberstroink/potential-octo-guacamole#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "fs": "0.0.2",
+    "path": "^0.12.7"
+  }
+}

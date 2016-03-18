@@ -1,0 +1,17 @@
+.leftdiv{
+    float:left;
+}
+.rightdiv{
+    float:left;
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+    margin: 5px auto 5px auto;
+}
+
+#mycanvas{
+    border:1px solid #000000;
+}
